@@ -1,0 +1,103 @@
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.navbars {
+  overflow: hidden;
+  top: 0;
+  width: 50%;
+  margin-left: 460px;
+  text-align: left;
+}
+
+#main, #footer, header #header {
+  background-color: rgba(255, 241, 234, 0.5);
+  -webkit-box-shadow: 5px 0px 10px 10px #D4E8FF;
+          box-shadow: 5px 0px 10px 10px #D4E8FF;
+}
+
+#main, #footer {
+  padding: 30px;
+}
+
+#main {
+  background-color: rgba(255, 241, 234, 0.5);
+}
+
+body {
+  background-color: #474242;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header #header {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  border: 10px;
+  border-radius: 30%;
+}
+
+header h1 {
+  color: white;
+}
+
+.navbars ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbars a {
+  color: black;
+}
+
+.navbars a:hover {
+  color: indigo;
+  text-decoration: none;
+}
+
+.navbars .arrange {
+  display: block;
+  text-align: center;
+}
+
+.driver {
+  position: absolute fixed;
+  width: 300px;
+  left: 65%;
+  border: none;
+  cursor: pointer;
+  background: none;
+  margin-left: 1080px;
+}
+
+.tabel-style .description {
+  text-align: right;
+  background-color: rgba(255, 241, 234, 0.5);
+  float: right;
+}
+
+.tabel-style .product {
+  text-align: center;
+  background-color: rgba(255, 241, 234, 0.5);
+}
+
+.tabel-style #name {
+  text-align: center !important;
+}
+
+#footer {
+  border: 10px;
+  border-radius: 30%;
+  margin-top: 25px;
+}
+
+#footer .footer-arrange {
+  text-align: center;
+  border: 10px;
+  border-radius: 30%;
+}
+/*# sourceMappingURL=new.css.map */
